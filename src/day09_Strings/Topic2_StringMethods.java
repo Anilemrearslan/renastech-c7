@@ -3,6 +3,7 @@ package day09_Strings;
 public class Topic2_StringMethods {
 
     public static void main(String[] args) {
+
         String str = "something";
         /*
 
@@ -36,7 +37,7 @@ trim()	              Removes whitespace from both ends of a string	             
      */
 
 
-//        charAt()	          Returns the character at the specified index (position)	        char
+//      charAt()	          Returns the character at the specified index (position)	        char
 
         String str1= "Tanya"; // Index or position: T ==> 0 ,a ==> 1 , n ==> 2 , y ==> 3, a ==> 4
 
@@ -45,7 +46,7 @@ trim()	              Removes whitespace from both ends of a string	             
         System.out.println("the char at the position 2 (or the index 2): "+ str1.charAt(2));
 
 
-
+//      concat()	          Appends a string to the end of another string	                    String
 
 
 
