@@ -48,8 +48,5 @@ public class Topic1_String {
         System.out.println("Are the others equal: "+(andy == sena));
 
 
-
-
-
     }
 }
