@@ -38,7 +38,19 @@ trim()	              Removes whitespace from both ends of a string	             
 
 //        charAt()	          Returns the character at the specified index (position)	        char
 
-        String str1= "Tanya";
+        String str1= "Tanya"; // Index or position: T ==> 0 ,a ==> 1 , n ==> 2 , y ==> 3, a ==> 4
+
+        char ch = str1.charAt(0);
+        System.out.println("the char at the position 0 (or the index 0): "+ ch);
+        System.out.println("the char at the position 2 (or the index 2): "+ str1.charAt(2));
+
+
+
+
+
+
+
+
 
 
 
