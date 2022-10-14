@@ -69,6 +69,59 @@ trim()	              Removes whitespace from both ends of a string	             
         System.out.println("Does String end with ing: "+end);
 
 
+//      equals()	          Compares two strings. Returns true if the strings are equal,
+//                              and false if not	                                                boolean
+
+        String str5 = "Hello";
+        String str6 = "Hello";
+        boolean eq= str5.equals(str6);
+        System.out.println("Are they equal: "+ eq);
+        String str7= new String("Hello");
+        boolean eq1 = str5.equals(str7);
+        System.out.println("Are they equal in the new key word ass well: "+eq1);
+
+
+
+//      equalsIgnoreCase()	  Compares two strings, ignoring case considerations	            boolean
+
+        String str8 = "Andy";
+        String str9 = "andy";
+        boolean eq2 = str8.equals(str9);
+        System.out.println("Are they equal: "+eq2);
+        boolean eq3 = str8.equalsIgnoreCase(str9);
+        System.out.println("Are they Equal when we ignore case: "+eq3);
+
+//      indexOf()	          Returns the position of the first found occurrence
+//                            of specified characters in a string	                            int
+
+        String str10= "eloise";
+        int pos = str10.indexOf("e");
+        System.out.println("The index of e in the String: "+ pos);
+
+
+//      lastIndexOf()	      Returns the position of the last found occurrence of
+//                              specified characters in a string	                                int
+
+
+        String str11= "eloise";
+        int pos1 = str11.lastIndexOf("e");
+        System.out.println("The last index of e: "+pos1);
+
+
+//      isEmpty()	          Checks whether a string is empty or not	                        boolean
+
+        String str12 =" ";
+        System.out.println("is String Empty: "+(str12.isEmpty()));
+
+
+//      length()	          Returns the length of a specified string	                        int
+
+        String str13= "wpkngbwpkgwpmgpmmgpkwosjfvbhncowedjbgfowejbgwegpwepgwepgnwengwegpoiwogbasdfghjkl";
+        System.out.println("the length if the String is: "+str13.length());
+
+
+
+
 
 
 
