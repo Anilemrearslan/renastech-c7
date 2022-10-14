@@ -48,8 +48,25 @@ trim()	              Removes whitespace from both ends of a string	             
 
 //      concat()	          Appends a string to the end of another string	                    String
 
+        String FirstName = "Ziya";
+        String LastName = "Yilmaz";
+        String FullName = FirstName.concat(" "+LastName);
+        System.out.println("The full name is: "+FullName);
 
 
+//      contains()	          Checks whether a string contains a sequence of characters	        boolean
+
+        String str3 = "This is a test";
+        boolean con= str3.contains("t");//T =! t
+        System.out.println("Contains the test: "+ con);
+
+
+//      endsWith()	          Checks whether a string ends with the specified character(s)	    boolean
+
+        String str4= "This is String";
+
+        boolean  end= str4.endsWith("ing");
+        System.out.println("Does String end with ing: "+end);
 
 
 
