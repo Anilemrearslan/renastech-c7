@@ -40,10 +40,12 @@ trim()	              Removes whitespace from both ends of a string	             
         String Rename=name.replace('Z','Y');
         System.out.println("the new value after replace "+Rename);
         System.out.println("the value of name: "+name);
-
+        System.out.println("****************************");
         String name1="AndrewAnd";
         String Rename1= name1.replace("And","Ziya");
         System.out.println("the new value of Rename1: "+Rename1);
+
+        System.out.println("****************************");
 
 //      replaceFirst()	   Replaces the first occurrence of a substring that matches the
 //      given regular expression with the given replacement	                                              String
@@ -52,11 +54,67 @@ trim()	              Removes whitespace from both ends of a string	             
         String Rename2= name2.replaceFirst("Am","Pn");
         System.out.println("the value for Rename2: "+Rename2);
 
+        System.out.println("***************************");
+
 //      startsWith()	      Checks whether a string starts with specified characters	        boolean
 
         String name3 = "Eloise";
         boolean Checkname3= name3.startsWith("E");
         System.out.println("Does name3 starts with E: "+Checkname3);
+
+        System.out.println("*********************************");
+
+
+//      substring()	    Extracts the characters from a string, beginning at a specified start position,
+//                      and through the specified number of character	                    String
+
+        String name4 = "Diana";
+        String subName4= name4.substring(2);
+        System.out.println("The substring value is: "+subName4);
+        System.out.println("*********************************");
+        String name5= "AliEkinci";
+        String subName5= name5.substring(2,6);//2 included but 6 is not //index=>2 and index<6
+        System.out.println("the value of subname5: "+subName5);
+
+        System.out.println("*********************************");
+
+//      toLowerCase()	      Converts a string to lower case letters	                        String
+
+        String name6 = "FeRah AslaN";
+        String ConName6 = name6.toLowerCase();
+        System.out.println("the value of conName6: "+ConName6 );
+
+        System.out.println("*********************************");
+
+//      toUpperCase()	      Converts a string to upper case letters	                        String
+
+        String name7="BAran Cevrim";
+        System.out.println("the value of name7 in all uppercase: "+name7.toUpperCase());
+
+        System.out.println("*********************************");
+
+//      trim()	              Removes whitespace from both ends of a string	                    String
+
+        String name8=" Cihan Sahin ";
+        System.out.println(name8);
+        System.out.println(name8.trim());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
