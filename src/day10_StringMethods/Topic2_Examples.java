@@ -17,8 +17,13 @@ public class Topic2_Examples {
         String LastName= scan.next();
         String changed = (FirstName.replace('a','b')
                 +LastName.replace('a','c')).toUpperCase();
+
         System.out.println("the value of Changed now is: "+changed);
 
+        System.out.println("********************");
+
+        String name2 = "Andrew";
+        System.out.println(name2.replace('z','a'));
 
 
     }
