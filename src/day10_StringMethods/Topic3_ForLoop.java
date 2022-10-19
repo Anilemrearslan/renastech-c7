@@ -29,6 +29,21 @@ public class Topic3_ForLoop {
         }
         //System.out.println("the value of i: "+i);// This is error out because i is only accessible inside the loop
 
+        System.out.println("******************");
+
+        // write a code where you calculate the sum of all the numbers between 0 and 20;
+        int result=0;
+        for (int i =0; i<20; i++){
+
+            result=result+i;// result = 0 + 0 =0
+            //                          //result = 0+1 = 1
+            //                          //result = 1+2 = 3
+            //                          //result = 3+3 = 6
+            //                          //result = 6+4 = 10
+            //                          //result = 0+1+2+3+4+5
+            System.out.println("the result for each iteration: "+result);
+        }
+        System.out.println("the result is: "+result);
 
 
 
