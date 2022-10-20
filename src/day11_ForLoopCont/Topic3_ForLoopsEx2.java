@@ -10,6 +10,13 @@ public class Topic3_ForLoopsEx2 {
             System.out.println(i);
         }
         System.out.println("the count of even numbers: "+ count);
+        //write a code where you find the odd numbers between 11- 120(not included)
+        int count1=0;
+        for (int i = 11; i<120; i+=2) {
+            count1++;//count=count +1
+            System.out.println(i);
+        }
+        System.out.println("the count of odd numbers: "+ count1);
 
     }
 }
