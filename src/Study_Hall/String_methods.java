@@ -5,10 +5,8 @@ public class String_methods {
     public static void main(String[] args) {
         String String1="Hello";
         String String2="HELLO";
-
-        float first3=1.0f;
         int first =1;
-        System.out.println(first==first3);
+        System.out.println(first==first);
         System.out.println("***************");
 
         //Equals
@@ -27,5 +25,9 @@ public class String_methods {
         String myString= null;
         String myString2="";
         System.out.println(myString2.isEmpty());
+
+        String s="Diana";
+        s.substring(2);
+
     }
 }
