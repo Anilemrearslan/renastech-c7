@@ -21,4 +21,16 @@ public class homework_17 {
   I have experience in EducatION, energy,finance and some manY Other AREAs. i HAve scrum master and Oracle java Programmer certificates.
    i love JaVA.   I designed and DEVELoped many automation test cases using BDD FRamework.
      */
+    public static void main(String[] args) {
+        String txt1="hello my name is Anil.";
+        String txt2="       i am <yourage> years old.";
+        String txt3="  i live in <yourcity>.";
+        String txt4=" I have been in IT industry for about 6 years.";
+        String txt5=" I STarted as MAnual TESter and NOW I am doiNG AuTomaTion Testing.";
+        String txt6="I have experience in EducatION, energy,finance and some manY Other AREAs.";
+        String txt7="i HAve scrum master and Oracle java Programmer certificates.";
+        String txt8=" i love JaVA. ";
+        String txt9="  I designed and DEVELoped many automation test cases using BDD FRamework. ";
+
+    }
 }
