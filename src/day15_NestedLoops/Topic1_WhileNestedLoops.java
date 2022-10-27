@@ -18,7 +18,7 @@ public class Topic1_WhileNestedLoops {
             System.out.println("\t the value of i: "+i);
 
             int j=1;
-            while(j<=10){
+            while(j<10){
                 System.out.println("for each i: "+i+" the value of j: "+j);
                 j++;
             }
