@@ -1,17 +1,14 @@
--what is SDLC? :
+-what is SDLC? : requirement gathering, analysis, design, development, testing, deployment, maintenance
 
 -differences between agile and waterfall ==
 Agile is an iterative methodology that includes a circular and collaborative process.
                					  waterfall is more linear process
 
-
--what do you like agile ==
+-what do you like about agile ==
  With Agile software development, teams can quickly adapt to requirements
    changes without negatively impacting release dates.
  Not only that, Agile helps reduce technical debt,
  improve customer satisfaction and deliver a higher quality product.
-
-
 
 what do you like about being scurm team >>>>>
  Scrum has the potential to renovate the software development and project management
@@ -25,3 +22,6 @@ what challenges can you face while working in agile environment >>>>
  poor communication and collaboration
  lack of management support.
  sudden requirement changing and not fully specified requirements
+
+ what is ac >>>>>>>>>>
+ “Conditions that a software product must satisfy to be accepted by a user, customer or other stakeholder.
