@@ -39,10 +39,10 @@ public class Topic5_StandartDeviation {
 
         System.out.println("Sum of the variance ArrayList : "+SumOfVariance);
 
-        double variance = SumOfVariance / (n - 1);
-        System.out.println("variance = " + variance);
+        double ValueOfVariance = SumOfVariance / (n - 1);
+        System.out.println("variance = " + ValueOfVariance);
 
-        double StandartDeviation = Math.sqrt(variance);
+        double StandartDeviation = Math.sqrt(ValueOfVariance);
 
         System.out.println("StandartDeviation = " + StandartDeviation);
 
