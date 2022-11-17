@@ -36,7 +36,7 @@ public class Topic1_IntroToClasses {
         System.out.println("Make : "+param1.Make);
         System.out.println("Model : "+param1.Model);
         System.out.println("Color : "+param1.Color);
-        System.out.println("Color : "+param1.ModelYear);
+        System.out.println("Year : "+param1.ModelYear);
     }
 
     /// This method will print car specifications
