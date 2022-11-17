@@ -8,6 +8,7 @@ public class Topic3_Static {
         MyForm.SurName = "Aslan";
 
         System.out.println(MyForm.Name);
+        System.out.println(MyForm.school);
 
         RenasTechStudentRegistrationForm MyNewForm = new RenasTechStudentRegistrationForm();
 
