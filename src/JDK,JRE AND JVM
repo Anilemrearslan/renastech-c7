@@ -1,0 +1,9 @@
+JRE is an Java Runtime Enviroment.
+JVM is an Java Virtual Machine
+JDK is an Java Development kit it is a software development kit that develops applicationin Java
+Along with JRE and JDK also consists of various development tools
+
+
+an it works like JDK is a Software development kit whereas JRE is a Softwaare bundle that allows Java
+program to run,
+whereas JVM is an environment for executing ByteCode
