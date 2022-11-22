@@ -6,12 +6,15 @@ public class EmployeeClass {
     public String SurName;
     public String Department;
 
+    public AddressClass MyHomeAddress;
+
     private String SIN;
 
 
 
     //Constructor
     public EmployeeClass(){
+        MyHomeAddress= new AddressClass();
         System.out.println("You created an employee");
     }
 
