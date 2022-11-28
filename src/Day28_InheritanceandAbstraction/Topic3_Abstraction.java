@@ -1,9 +1,12 @@
 package Day28_InheritanceandAbstraction;
 
-public class Topic3_Abstraction {
+import java.nio.file.Watchable;
+
+public class  Topic3_Abstraction {
+
     public static void main(String[] args) {
-        Cat MyCat = new Cat();
-        MyCat.Walk();
+        cat Mycat = new cat();
+        Mycat.Walk();
 
         Dolphin MyDolphin = new Dolphin();
         MyDolphin.Swim();
@@ -11,60 +14,62 @@ public class Topic3_Abstraction {
         Lion MyLion = new Lion();
         MyLion.Walk();
 
-        System.out.println("--------------------------");
+        System.out.println("------------------------");
         TerrestrialAnimals AnAnimal;
-        AnAnimal = new Lion();
+        AnAnimal =new Lion();
         AnAnimal.Walk();
     }
+
 }
-//The animals which live in water. Examples : Octopus, Fish, Shark
+
+//the animals which live in water. Example : Octopus , Fish, Shark
 interface AquaticAnimals{
-    void Swim(); //This is an ABSTRACT method
+    void Swim(); //This is an ABSTRACT  method
 }
 
-// The animals which live in land. Examples : Cow, Lion, Deer
+//the animals which live in land. Example : Cow, Lion, deer
 interface TerrestrialAnimals{
-    void Walk(); //This is an ABSTRACT method
+    void Walk();
 }
 
-class Cat implements TerrestrialAnimals{
+class cat implements TerrestrialAnimals{
     @Override
     public void Walk() {
-        System.out.println("Cat is walking.");
+        System.out.println("Cat is walking");
     }
 }
-//What is different between extends and implements keyword.
-class Lion extends Cat{
+//what is different between extend and implement keywords.
+class Lion extends cat{
     @Override
     public void Walk() {
-        System.out.println("Lion is walking");
+        System.out.println("lion is walking");
     }
 }
 
 class Dolphin implements AquaticAnimals{
     @Override
     public void Swim() {
-        System.out.println("Dolphin is swimming.");
+        System.out.println("Dolphin is swimming");
     }
 }
-// Can you implement a class from more than one interface?
+
+// can you implement a class from more than one interface? Answer is yes
 class Penguin implements AquaticAnimals, TerrestrialAnimals{
     @Override
-    public void Swim() {
-        System.out.println("Penguin is swimming!");
+    public void Walk() {
+        System.out.println("penguin is walking");
     }
 
     @Override
-    public void Walk() {
-        System.out.println("Penguin is walking!");
+    public void Swim() {
+        System.out.println("penguin is swimming");
     }
 }
 
+// can you extend a class from more than one class?
+//NO Class cannot extend multiple calsses
+/* I connot write below code
+class Tiger extends cat,Lion{
 
-// Can you extend a class from more than one class?
-//NO, Class cannot extend multiple classes
-/* I cannot write below code
-class Tiger extends Cat,Lion{
-*/
-
-
+}
+ */
