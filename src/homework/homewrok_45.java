@@ -25,18 +25,32 @@ public class homewrok_45 {
         numbers.add(5);
         numbers.add(6);
 
+        System.out.println("before removing duplicates "+numbers);
+
+        System.out.println("********************");
+
+        System.out.println("After removing duplicates "+GetUniqueNumbers(numbers));
 
 
     }
 
-//    public static ArrayList<Integer> GetUniqueNumbers(ArrayList<Integer> param1){
-//
-//       ArrayList<Integer> NewList = new ArrayList<>();
-//        for (int i = 0; i < NewList.size(); i++) {
-//            System.out.println(NewList.get(i));
-//            int x;
-//
-//
-//        }
-//    }
+    public static ArrayList<Integer> GetUniqueNumbers(ArrayList<Integer> param1){
+
+       ArrayList<Integer> UniqueArrayList = new ArrayList<>();
+        for (int i = 0; i < param1.size(); i++) {
+            int count = 0;
+
+            for (int j = 0; j < param1.size(); j++) {
+                if (param1.get(i)==param1.get(j)){
+                    count++;
+                }
+            }
+
+            if (count == 1){
+                UniqueArrayList.add(param1.get(i));
+            }
+
+        }
+        return UniqueArrayList;
+    }
 }
