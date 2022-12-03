@@ -2,7 +2,7 @@ package homework;
 
 import java.util.ArrayList;
 
-public class homewrok_45 {
+public class homework_45 {
     /*
     Write a Method where it takes an Integer of ArrayList and returns to an Integer ArrayList where it contains only unique numbers
     ex:   list     ==>   {1,1,2,3,3,4,5,6}
