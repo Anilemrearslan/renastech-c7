@@ -13,7 +13,7 @@ public class Topic1_PublicClasses {
         MyElectricCars.Make="Tesla";
         MyElectricCars.Model="3";
         MyElectricCars.Color="White";
-        MyElectricCars.ModelYear=2021;
+        MyElectricCars.Year=2021;
 
 
         EmployeeClass MyEmployee = new EmployeeClass();

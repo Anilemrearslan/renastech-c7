@@ -4,11 +4,31 @@ public class CarClass {
     // Fields
     public String Make;
     public String Model;
-    public int ModelYear;
+    public int Year;
+    public double Speed;
     public String Color;
 
     private double Cost;
 
     // Methods
 
+    public void SetAttributes(String SetModel, int SetYear, double SetSpeed){
+        Model = SetModel;
+        Year = SetYear ;
+        Speed = SetSpeed;
+    }
+
+    public void PrintCar(){
+        System.out.println("Model = "+Model);
+        System.out.println("Year = "+Year);
+        System.out.println("Speed = "+Speed);
+    }
+
+    public void IncreaseSpeed(double param1){
+        Speed=Speed+param1;
+    }
+
+    public void DecreaseSpeed(double param1){
+        Speed=Speed-param1;
+    }
 }
