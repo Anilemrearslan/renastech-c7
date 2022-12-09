@@ -12,10 +12,10 @@ public class CarClass {
 
     // Methods
 
-    public void SetAttributes(String SetModel, int SetYear, double SetSpeed){
-        Model = SetModel;
-        Year = SetYear ;
-        Speed = SetSpeed;
+    public void SetAttributes(String Model, int Year, double Speed){
+        this.Model = Model;
+        this.Year = Year ;
+        this.Speed = Speed;
     }
 
     public void PrintCar(){

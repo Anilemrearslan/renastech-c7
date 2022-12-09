@@ -23,13 +23,13 @@ Example: Tesla 2021, Speed: 106. Danger of getting ticket!
 
     public static void main(String[] args) {
         CarClass Car1 = new CarClass();
-        Car1.SetAttributes("Acura", 2019, 55.0);
+        Car1.SetAttributes("Acura RDX", 2019, 55.0);
         CarClass Car2 = new CarClass();
-        Car2.SetAttributes("Honda",2022,65.5);
+        Car2.SetAttributes("Honda Accord",2022,65.5);
         CarClass Car3 = new CarClass();
-        Car3.SetAttributes("Mercedes",2020,100.0);
+        Car3.SetAttributes("Mercedes S-Class",2020,100.0);
         CarClass Car4 = new CarClass();
-        Car4.SetAttributes("BMW",2021,80.0);
+        Car4.SetAttributes("BMW 3-series",2021,80.0);
 
         Car1.IncreaseSpeed(26);
         Car2.IncreaseSpeed(10);
@@ -37,9 +37,27 @@ Example: Tesla 2021, Speed: 106. Danger of getting ticket!
         Car4.DecreaseSpeed(15);
 
         if (Car1.Speed > 80){
-            System.out.println(Car1.Model + " Danger of getting ticket! " + "Your Speed is : " + Car1.Speed);
+            System.out.println(Car1.Year+" "+Car1.Model + " Danger of getting ticket! " + "Your Speed is : " + Car1.Speed);
         }else if (Car1.Speed < 80){
-            System.out.println(Car1.Model + " You doing good!! " + "Your Speed is : " + Car1.Speed);
+            System.out.println(Car1.Year+" "+Car1.Model + " You doing good!! " + "Your Speed is : " + Car1.Speed);
+        }
+
+        if (Car2.Speed > 80){
+            System.out.println(Car2.Year+" "+Car2.Model + " Danger of getting ticket! " + "Your Speed is : " + Car2.Speed);
+        }else if (Car2.Speed < 80){
+            System.out.println(Car2.Year+" "+Car2.Model + " You doing good!! " + "Your Speed is : " + Car2.Speed);
+        }
+
+        if (Car3.Speed > 80){
+            System.out.println(Car3.Year+" "+Car3.Model + " Danger of getting ticket! " + "Your Speed is : " + Car3.Speed);
+        }else if (Car3.Speed < 80){
+            System.out.println(Car3.Year+" "+Car3.Model + " You doing good!! " + "Your Speed is : " + Car3.Speed);
+        }
+
+        if (Car4.Speed > 80){
+            System.out.println(Car4.Year+" "+Car4.Model + " Danger of getting ticket! " + "Your Speed is : " + Car4.Speed);
+        }else if (Car4.Speed < 80){
+            System.out.println(Car4.Year+" "+Car4.Model + " You doing good!! " + "Your Speed is : " + Car4.Speed);
         }
 
     }
